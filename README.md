@@ -1,5 +1,6 @@
 # eslint-config-pawvue
 
+[**NPM**](https://www.npmjs.com/package/eslint-config-pawvue)
 ```console
 npm i -D eslint-config-pawvue
 ```
