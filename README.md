@@ -1,5 +1,9 @@
 # eslint-config-pawvue
 
+```console
+npm i -D eslint-config-pawvue
+```
+
 ## Config details:
 
 ```js
