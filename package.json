@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pawvue",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "description": "Shareable custom config using eslint/prettier for Vue.",
   "main": "index.js",
   "scripts": {
