@@ -1,4 +1,14 @@
 # eslint-config-pawvue
+This configuration autoFixes the casing of your vue components with prettier and eslint. And indents better your html.
+For ex: You have:
+```html
+<nav-bar-modal>
+```
+<sup>after formatting on save: </sup>
+```html
+<NavBarModal>
+```
+So, if you use vs-code with the components will be shown in green color, thus making it easier to read and work with.
 
 ## How to install
 [**NPM**](https://www.npmjs.com/package/eslint-config-pawvue)
