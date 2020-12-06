@@ -1,11 +1,49 @@
 # eslint-config-pawvue
 
+## How to install
 [**NPM**](https://www.npmjs.com/package/eslint-config-pawvue)
 ```console
 npm i -D eslint-config-pawvue
 ```
 
-## Config details:
+Now in your `.eslintrc`
+```js
+{
+  "extends": ["eslint-config-pawvue"]
+}
+```
+
+## Recommended vs-code config
+
+
+<sup>`Settings (JSON)`</sup>
+```json  
+ "editor.formatOnSave": true
+ "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+ "editor.defaultFormatter": "esbenp.prettier-vscode"
+```
+
+### My .prettierrc config if you need it (Just copy it).
+
+<sup>`.eslintrc`</sup>
+```js
+{
+  "singleQuote": true,
+  "semi": false,
+  "tabWidth": 2,
+  "quoteProps": "preserve",
+  "trailingComma": "none",
+  "endOfLine": "auto",
+  "arrowParens": "avoid",
+  "htmlWhitespaceSensitivity": "ignore"
+}
+
+```
+
+### eslint-config-pawvue Config details:
+#### These are the default configurations that come in this eslint package.
 
 ```js
 root: true,
@@ -74,12 +112,5 @@ root: true,
         jest: true
       }
     }
-  ],
-
-  'extends': [
-    'plugin:vue/essential',
-    'eslint:recommended',
-    '@vue/prettier',
-    'prettier'
   ]
 ```
