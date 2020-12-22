@@ -37,7 +37,7 @@ Now in your `.eslintrc`
 
 ### My .prettierrc config if you need it (Just copy it).
 
-<sup>`.eslintrc`</sup>
+<sup>`.prettierrc`</sup>
 ```js
 {
   "singleQuote": true,
