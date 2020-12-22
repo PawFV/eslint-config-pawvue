@@ -1,4 +1,4 @@
-# eslint-config-pawvue
+# @pawfv/eslint-config-vue
 This configuration autoFixes the casing of your vue components with prettier and eslint. And indents better your html.
 For ex: You have:
 ```html
